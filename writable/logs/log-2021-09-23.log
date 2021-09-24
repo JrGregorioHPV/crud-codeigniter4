@@ -1,0 +1,58 @@
+CRITICAL - 2021-09-23 11:08:44 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\Common.php(1092): CodeIgniter\View\View->render('libros/listar', Array, true)
+#2 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Controllers\Libros.php(13): view('libros/listar', Array)
+#3 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(802): App\Controllers\Libros->index()
+#4 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#5 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Servidor\codeigniter\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-23 11:52:38 --> Undefined variable $libros
+#0 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Views\libros\listar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\Common.php(1092): CodeIgniter\View\View->render('libros/listar', Array, true)
+#4 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Controllers\Libros.php(14): view('libros/listar', Array, Array)
+#5 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(802): App\Controllers\Libros->index()
+#6 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Servidor\codeigniter\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-23 11:53:58 --> compact(): Undefined variable $1
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Controllers\Libros.php(14): compact(Array, Array)
+#2 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(802): App\Controllers\Libros->index()
+#3 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Servidor\codeigniter\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-23 12:10:43 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Views\plantilla\cabecera.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\Common.php(1092): CodeIgniter\View\View->render('plantilla/cabec...', Array, true)
+#4 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Controllers\Libros.php(13): view('plantilla/cabec...')
+#5 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(802): App\Controllers\Libros->index()
+#6 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Servidor\codeigniter\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-23 12:11:15 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Views\plantilla\cabecera.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\Common.php(1092): CodeIgniter\View\View->render('plantilla/cabec...', Array, true)
+#4 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Controllers\Libros.php(13): view('plantilla/cabec...')
+#5 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(802): App\Controllers\Libros->index()
+#6 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Servidor\codeigniter\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-23 17:27:18 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Controllers\Libros.php(50): CodeIgniter\HTTP\Files\UploadedFile->move('../public/img/', '1632436038_7bed...')
+#2 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(802): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Servidor\codeigniter\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

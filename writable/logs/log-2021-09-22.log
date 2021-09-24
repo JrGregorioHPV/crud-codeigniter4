@@ -1,0 +1,9 @@
+CRITICAL - 2021-09-22 23:41:27 --> Invalid file: listar.php
+#0 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listar.php')
+#1 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\Common.php(1092): CodeIgniter\View\View->render('listar', Array, true)
+#2 C:\xampp\htdocs\Servidor\codeigniter\CRUD\app\Controllers\Home.php(9): view('listar')
+#3 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Servidor\codeigniter\CRUD\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Servidor\codeigniter\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
